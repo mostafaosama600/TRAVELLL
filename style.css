@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cdn.pixabay.com/photo/2017/06/23/17/46/desert-2435404__340.jpg);
+    /* width: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px ;
+    transition: 4s;
+}
+.btn2{
+    margin: 0 5px;
+}
+.header h5{
+    width: 90px;
+    float: left;
+    font-weight: 650;
+    color: #fff;
+    padding: 3px;
+    box-shadow: -2px 2px 2px lightblue;
+    transition: 1s;
+}   
+.header h5:hover{
+    width: 95px;
+    float: left;
+    font-weight: 600;
+    padding: 3px;
+    box-shadow: 2px 2px 2px lightblue;
+}   
+.login-btn{
+    float: right;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 13px ;
+    border-radius: 15px;
+    background: transparent;
+    transition: 0.5s;
+}
+.login-btn:hover{
+    box-shadow: -2px 2px 2px  lightblue;
+    color: lightblue;
+}
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    line-height: 1.2em;
+}
+.header p{
+    margin: 18px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border-radius: 30px !important;
+    border: 0 !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(lightblue,#333);
+    border: 0 !important;
+    color: #fff!important;
+    padding: 0 25px;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    transition: 1s;
+}
+.input-group-text:hover{
+    background-image: linear-gradient(#333,lightblue);
+
+}
+.feature{
+    text-align: center;
+    padding: 100px 0;
+}
+h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.feature-img img{
+    width: 100%;
+    border-radius: 4px;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img{
+    position: relative;
+}
+.rating{
+    float: right;
+    position: absolute;
+    padding: 3px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    right: 0;
+    bottom: -1px;
+}
+.feature .fas{
+    color: goldenrod;
+    font-size: 15px;
+}
+.feature .far{
+    /* color: #000; */
+    font-size: 15px;
+}
+.feature-details{
+    padding: 20px 0;
+    /* text-align: center; */
+}
+.feature-details h4{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.feature-details p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+.txt-bar{
+    color: gray;
+}
+.feature-box{
+    box-shadow: 0 0 10px 0 rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.feature-box:hover{
+    box-shadow: 0 0 40px 0 rgba(37,73,214,0.50);
+
+}
+.gallary{
+    padding: 100px 0;
+    background-color: #efefef;
+    border-radius: 12px;
+}
+.gallary p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+    font-style: italic;
+}
+.gallary-box img{
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gallary-box img:hover{
+    transform: scale(1.1);
+}
+.gallary-box h4{
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+}
+.gallary-box h4 span{
+    color: goldenrod;
+}
+.gallary-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner{
+    height: 80%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/03/11/06/birds-in-flight-5366034__340.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 13%;
+}
+.hightlight-banner{
+    padding: 70px 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* text-align: center; */
+    color: #000;
+    font-weight: 900;
+}
+.hightlight-banner p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hightlight-banner span{
+    color: lightblue;
+    font-weight: 600;
+}
+.hightlight-banner i{
+    /* color: #fff; */
+    padding: 5px 10px;
+    margin: 0 3px;
+    font-size: 19px;
+    box-shadow: -2px 2px 2px lightblue;
+    cursor: pointer;
+}
+.hightlight-banner i:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-size: 19px;
+    margin: 0 3px;
+    box-shadow: none;
+    border: lightblue solid 1px;
+
+    /* box-shadow: 0px 2px 0px lightblue; */
+}
+
+.booking-btn{
+    /* float: right; */
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 13px ;
+    border-radius: 15px;
+    background: transparent;
+    margin: 20px;
+    transition: 0.5s;
+}
+.booking-btn:hover{
+    box-shadow: -2px 2px 2px  lightblue;
+    color: lightblue;
+}
+.Up{
+    color: lightblue;
+}
+.user-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px ;
+}
+.user-review img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.user-review img:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+    cursor: pointer;
+}
+.user-review i{
+    padding: 10px 0;
+    font-size: 40px;
+    color: #C69350;
+}
+.user-review h5 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 50px;
+}
+.user-review small {
+    font-size: 16px;
+    color: #C69350;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 60px;
+}
+.footer{
+    padding: 100px 20px 20px;
+    background-image: linear-gradient(#52402F,#D3A363);
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 35px;
+
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+
+}
+.footer hr{
+    margin-top: 10px;
+    background-color: lightblue;
+}
+.fa-heart{
+    margin: 0 5px;
+    color: lightblue;
+}
+.footer .copyright{
+    text-align: center;
+}
